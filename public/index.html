@@ -94,7 +94,7 @@
 
         <div class="placeholder_div">
             
-            <ul class="degree-list">
+            <ul class="degree-list" v-if="displayDegree">
                 <li v-for="degree in degree" class="degree-item">
                   <div class="degree-box">
                     <div class="degree-name">{{ degree.name }}</div>
